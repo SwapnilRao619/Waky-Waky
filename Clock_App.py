@@ -30,7 +30,7 @@ def acm():
 
 menum=ui.Tk()
 menum.geometry("600x600")
-menum.title("Clock App")
+menum.title("Waky Waky")
 pygame.mixer.init()
 mt=Thread(target=music)
 mt.start()
